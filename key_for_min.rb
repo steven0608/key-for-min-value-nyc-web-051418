@@ -3,9 +3,12 @@
 name_hash={:blake => 500, :ashley => 2, :adam => 1}
 def key_for_min_value(name_hash)
 smallest=nil
+name=""
 name_hash.collect do |name,value|
   if value <= smallest
-    name
+    smallest=value
+    name=name
   end
 end
+name
 end
