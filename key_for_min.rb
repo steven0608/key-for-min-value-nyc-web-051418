@@ -17,5 +17,3 @@ name_hash.collect do |name,value|
 end
 key_name
 end
-
-key_for_min_value(name_hash)
