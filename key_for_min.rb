@@ -4,6 +4,6 @@
 def key_for_min_value(name_hash)
 value_list=name_hash.each do |name,value|
   value
-end.min(1)
+end
 value_list[0][0]
 end
